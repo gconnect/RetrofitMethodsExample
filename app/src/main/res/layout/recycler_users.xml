@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="4dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textviewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agatevure Glory"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+            <TextView
+                android:id="@+id/textviewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gconnect@gmail.com"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+            <TextView
+                android:id="@+id/textviewSchool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gconnect@gmail.com"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+        </LinearLayout>
+    </android.support.design.card.MaterialCardView>
+
+</RelativeLayout>

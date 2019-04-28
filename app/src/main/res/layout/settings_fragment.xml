@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"/>
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"/>
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"/>
+        <EditText
+            android:id="@+id/editTextSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="School"/>
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"/>
+        <EditText
+            android:id="@+id/currentPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current Password"/>
+        <EditText
+            android:id="@+id/newPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New password"/>
+
+        <Button
+            android:id="@+id/button_chanage_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"/>
+        <Button
+            android:id="@+id/button_delete_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Profile"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
